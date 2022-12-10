@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
-        Title="Kalkulator" Height="435" Width="794">
+        Title="Kalkulator" Height="435" Width="794"
+        Icon="/calculator.png">
     <Grid Background="DarkGray" Margin="0,0,0,-6" >
         <TextBlock x:Name="tblockResult" HorizontalAlignment="Left" Height="43" Margin="106,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="588" Background="DarkSlateGray"/>
         <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="106,167,0,0" VerticalAlignment="Top" Width="148" Height="46" Click="btn7_Click"/>
