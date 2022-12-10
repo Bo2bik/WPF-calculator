@@ -8,7 +8,7 @@
         Title="Kalkulator" Height="435" Width="794"
         Icon="/calculator.png">
     <Grid Background="DarkGray" Margin="0,0,0,-6" >
-        <TextBlock x:Name="tblockResult" HorizontalAlignment="Left" Height="43" Margin="106,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="588" Background="DarkSlateGray"/>
+        <TextBlock x:Name="tblockResult" HorizontalAlignment="Left" Height="43" Margin="106,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="588" Background="White" FontSize="30"/>
         <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="106,167,0,0" VerticalAlignment="Top" Width="148" Height="46" Click="btn7_Click"/>
         <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="272,167,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="btn8_Click"/>
         <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="438,167,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="btn9_Click"/>
